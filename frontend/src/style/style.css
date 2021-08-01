@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+.global-style {
+  background-color: #f8edeb;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  font-family: "Lato", sans-serif;
+}
+.title-name {
+  color: #e5989b;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #e9edc9;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #ffb4a2;
+  color: white;
+}
+
+.main {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-url {
+  display: block;
+  font-size: 16px;
+  width: 70vw;
+  font-family: inherit;
+  padding: 1em;
+  background-color: #fff;
+  border: 0px;
+  border-radius: 10px;
+}
+
+.input-url:focus {
+  outline: 0px;
+}
+
+.shorten {
+  margin-top: 20px;
+  border: 0px;
+  background-color: #e9c46a;
+  padding: 1em;
+  border-radius: 5px;
+  color: #774936;
+  font-size: medium;
+  font-weight: 700;
+}
+
+.shorten:hover {
+  background-color: #fdffb6;
+}
+
+.table-header {
+  background-color: #fcd5ce;
+}
+
+.footer {
+  font-size: medium;
+  margin-top: auto;
+  margin-bottom: 20px;
+}
+
+.footer a {
+  color: #0096c7;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.table-link {
+  color: #457b9d;
+  text-decoration: none;
+}
+
+.table-link:hover {
+  text-decoration: underline;
+}
+
+.invalid-url {
+  font-size: small;
+  color: red;
+}
+
+.retrieval-info {
+  background-color: #eae4e9;
+  font-size: medium;
+  width: 70vw;
+  font-family: inherit;
+  padding: 1em;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.retrieval-info a {
+  color: #0096c7;
+  text-decoration: none;
+}
+
+.retrieval-info a:hover {
+  text-decoration: underline;
+}
+
+.redir-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.please-wait {
+  color: #774936;
+}
+
+@media only screen and (min-width: 1920px) {
+  .input-url {
+    width: 1000px;
+  }
+  .retrieval-info {
+    width: 1000px;
+  }
+}
